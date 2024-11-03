@@ -1,25 +1,21 @@
-// ProductCard.js
 import React from 'react';
 import './index.css';
 
-
-function ProductCard({ imageSrc, isNew, title, price, rating }) {
+function ProductCard({ image, title, price, rating, description, category }) {
 	return (
-		<div className="relative group p-4 bg-white shadow-lg rounded-lg transition-all duration-300 hover:shadow-2xl">
+		<div className="relative group p-4 bg-coolGrey shadow-lg rounded-lg transition-all duration-300 hover:shadow-2xl">
 			<div className="overflow-hidden rounded-t-lg aspect-w-1 aspect-h-1">
 				<img
 					className="object-cover w-full h-full transition-transform duration-300 transform group-hover:scale-105"
-					src={imageSrc}
+					src={image}
 					alt={title}
 				/>
 			</div>
-			{isNew && (
-				<div className="absolute left-3 top-3">
-					<p className="px-2 py-1 text-xs font-semibold text-white uppercase bg-red-500 rounded-full">
-						New
-					</p>
-				</div>
-			)}
+			<div className="absolute left-3 top-3">
+				<p className="px-2 py-1 text-xs font-semibold text-white uppercase bg-red-500 rounded-full">
+					New
+				</p>
+			</div>
 			<div className="flex items-start justify-between mt-4">
 				<div>
 					<h3 className="text-sm font-semibold text-gray-900">
@@ -46,9 +42,20 @@ function ProductCard({ imageSrc, isNew, title, price, rating }) {
 				</div>
 				<div className="text-right">
 					<p className="text-sm font-semibold text-gray-900">
-						${price.toFixed(2)}
+						${price}
 					</p>
 				</div>
+			</div>
+			<div>
+				<p>{description}</p>
+			</div>
+			<div className="mt-4 flex justify-center space-x-2 ">
+				<button className="w-8 h-8 bg-beige text-black font-semibold rounded-lg shadow-md hover:bg-beige-dark focus:outline-none focus:ring-2 focus:ring-beige-light focus:ring-opacity-50">
+					+
+				</button>
+				<button className="w-8 h-8 bg-taupe text-white font-semibold rounded-lg shadow-md hover:bg-taupe-dark focus:outline-none focus:ring-2 focus:ring-taupe-light focus:ring-opacity-50">
+					-
+				</button>
 			</div>
 		</div>
 	);
