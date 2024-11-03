@@ -2,97 +2,109 @@
     {
         "id": 1,
         "title": "Sourdough",
-        "price": "$3.00",
+        "price": "3.00",
         "description": "A bread made by the fermentation of dough using wild lactobacillaceae and yeast. Lactic acid from fermentation imparts a sour taste and improves keeping-qualities.",
         "category": "bread",
-        "image": "https://www.seriouseats.com/thmb/LoXQL7Yp_uXxtipH8cCp_LGVg5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140810-workhorse-bread-vicky-wasik-3-3a86ee51da2e4a7b8239ceb62d8d8d17.jpg"
+        "rating": 4.3,
+        "image": "https://heartbeetkitchen.com/foodblog/wp-content/uploads/2020/04/basic-sourdough-bread-recipe4.jpg"
     },
     {
         "id": 2,
         "title": "White bread",
-        "price": "$2.00",
+        "price": "5.00",
         "description": "A bread made from wheat flour from which the bran and the germ layers have been removed from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour.",
         "category": "bread",
+        "rating": 2.5,
         "image": "https://www.cookingclassy.com/wp-content/uploads/2020/04/bread-recipe-1.jpg"
     },
     {
         "id": 3,
         "title": "Baguette",
-        "price": "$4.00",
+        "price": "$.00",
         "description": "A baguette is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust.",
         "category": "bread",
+        "rating": 4.7,
         "image": "https://therecipecritic.com/wp-content/uploads/2024/06/french-baguette-1-2.jpg"
     },
     {
         "id": 4,
         "title": "Focaccia",
-        "price": "$1.50",
+        "price": "1.50",
         "description": "A flat leavened oven-baked Italian bread. In Rome, it is similar to a type of flatbread called pizza bianca. Focaccia may be served as a side dish or as sandwich bread and it may be round, rectangular, or square shape.",
         "category": "bread",
-        "image": "https://theplantbasedschool.com/wp-content/uploads/2024/04/Focaccia-with-rosemary.jpg"
+        "rating": 4.0,
+        "image": "https://www.lionsbread.com/wp-content/uploads/2022/09/Roasted-Vegetable-Focaccia.jpg"
     },
     {
         "id": 5,
         "title": "Naan",
-        "price": "$2.25",
+        "price": "2.25",
         "description": "A leavened, oven-baked or tawa-fried flatbread, that can also be baked in a tandoor. It is characterized by a light and fluffy texture and golden-brown spots from the baking process.",
         "category": "bread",
-        "image": "https://saltedmint.com/wp-content/uploads/2024/01/Naan-Bread-2.jpg"
+        "rating": 4.5,
+        "image": "https://i0.wp.com/binjalsvegkitchen.com/wp-content/uploads/2015/04/Stuffed-Cheesy-Spinach-Naan-H2-WT.jpg?resize=600%2C900&ssl=1"
     },
     {
         "id": 6,
         "title": "Hawaiian Roll",
-        "price": "$5.00",
+        "price": "5.00",
         "description": "Hawaiian Rolls are distinctly sweet and ridiculously soft and light, perfect for making delicious mini sandwiches, breakfast sandwiches, sliders, and more.",
         "category": "bread",
+        "rating": 3.7,
         "image": "https://www.twoofakindcooks.com/wp-content/uploads/2014/09/Sweet-Hawaiian-Rolls_pan.png"
     },
     {
         "id": 7,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Croissant",
+        "price": "$1.50",
+        "description": "A croissant is a French pastry made from puff pastry in a crescent shape. It is a buttery, flaky, viennoiserie pastry inspired by the shape of the Austrian kipferl, but using the French yeast-leavened laminated dough.",
+        "category": "bread",
+        "rating": 4.1,
+        "image": "https://cravingsjournal.com/wp-content/uploads/2023/08/croissants-4.jpg"
     },
     {
         "id": 8,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Pretzel",
+        "price": "1.25",
+        "description": "A pretzel is a type of baked pastry made from dough that is commonly shaped into a knot. The traditional pretzel shape is a distinctive symmetrical form, with the ends of a long strip of dough intertwined and then twisted back onto itself in a particular way.",
+        "category": "bread",
+        "rating": 3.0,
+        "image": "https://www.everydayfamilycooking.com/wp-content/uploads/2022/12/Air-Fryer-Frozen-Pretzels2.jpg"
     },
     {
         "id": 9,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Breadsticks",
+        "price": "1.00",
+        "description": "Breadsticks, also known as grissini, are generally pencil-sized sticks of crisp, dry baked bread that originated in the Piedmont region of Italy.",
+        "category": "bread",
+        "rating": 4.1,
+        "image": "https://www.aheadofthyme.com/wp-content/uploads/2021/09/garlic-breadsticks.jpg"
     },
     {
         "id": 10,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Muffin",
+        "price": "1.50",
+        "description": "A muffin or bun is an individually portioned baked product; however, the term can refer to one of two distinct items: a part-raised flatbread that is baked and then cooked on a griddle, or a quickbread that is chemically leavened and then baked in a mold.",
+        "category": "sweet",
+        "rating": 4.2,
+        "image": "https://www.fooodlove.com/images/jcogs_img/cache/Whole_Grain_Blueberry_Muffins_01_portrait_-_28de80_-_13ded6b8db67619cd7e56df9eb5f091957d45277.jpg"
     },
     {
         "id": 11,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Banana bread",
+        "price": "4.00",
+        "description": "Banana bread is a type of sweet bread or cake made from mashed bananas. It is often a moist and sweet quick bread but some recipes are yeast raised.",
+        "category": "sweet",
+        "rating": 4.7,
+        "image": "https://natashaskitchen.com/wp-content/uploads/2018/05/Banana-Bread-Recipe-6.jpg"
     },
     {
         "id": 12,
-        "title": "",
-        "price": "$",
-        "description": "",
-        "category": "",
-        "image": ""
+        "title": "Crepe",
+        "price": "5.00",
+        "description": "A crêpe or crepe is a dish made from unleavened batter or dough that is cooked on a frying pan or a griddle. Crêpes are usually one of two varieties: sweet crêpes or savoury galettes. They are often served with a wide variety of fillings such as cheese, fruit, vegetables, meats, and a variety of spreads.",
+        "category": "sweet",
+        "rating": 4.5,
+        "image": "https://www.chelseasmessyapron.com/wp-content/uploads/2019/05/Nutella-Crepes-ChelseasMessyApron-1200-1.jpg"
     }
 ]
