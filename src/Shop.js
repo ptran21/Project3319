@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.css"; // Import Bootstrap CSS
 
-const Shop = () => {
+const shop = () => {
   const [catalog, setCatalog] = useState([]);
   const [cart, setCart] = useState([]);
   const [cartTotal, setCartTotal] = useState(0);
@@ -125,4 +125,4 @@ const Shop = () => {
     );
 };
 
-export default Shop;
+export default shop;
