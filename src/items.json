@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Sourdough",
+        "price": "$3.00",
+        "description": "A bread made by the fermentation of dough using wild lactobacillaceae and yeast. Lactic acid from fermentation imparts a sour taste and improves keeping-qualities.",
+        "category": "bread",
+        "image": "https://www.seriouseats.com/thmb/LoXQL7Yp_uXxtipH8cCp_LGVg5E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140810-workhorse-bread-vicky-wasik-3-3a86ee51da2e4a7b8239ceb62d8d8d17.jpg"
+    },
+    {
+        "id": 2,
+        "title": "White bread",
+        "price": "$2.00",
+        "description": "A bread made from wheat flour from which the bran and the germ layers have been removed from the whole wheatberry as part of the flour grinding or milling process, producing a light-colored flour.",
+        "category": "bread",
+        "image": "https://www.cookingclassy.com/wp-content/uploads/2020/04/bread-recipe-1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Baguette",
+        "price": "$4.00",
+        "description": "A baguette is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust.",
+        "category": "bread",
+        "image": "https://therecipecritic.com/wp-content/uploads/2024/06/french-baguette-1-2.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Focaccia",
+        "price": "$1.50",
+        "description": "A flat leavened oven-baked Italian bread. In Rome, it is similar to a type of flatbread called pizza bianca. Focaccia may be served as a side dish or as sandwich bread and it may be round, rectangular, or square shape.",
+        "category": "bread",
+        "image": "https://theplantbasedschool.com/wp-content/uploads/2024/04/Focaccia-with-rosemary.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Naan",
+        "price": "$2.25",
+        "description": "A leavened, oven-baked or tawa-fried flatbread, that can also be baked in a tandoor. It is characterized by a light and fluffy texture and golden-brown spots from the baking process.",
+        "category": "bread",
+        "image": "https://saltedmint.com/wp-content/uploads/2024/01/Naan-Bread-2.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Hawaiian Roll",
+        "price": "$5.00",
+        "description": "Hawaiian Rolls are distinctly sweet and ridiculously soft and light, perfect for making delicious mini sandwiches, breakfast sandwiches, sliders, and more.",
+        "category": "bread",
+        "image": "https://www.twoofakindcooks.com/wp-content/uploads/2014/09/Sweet-Hawaiian-Rolls_pan.png"
+    },
+    {
+        "id": 7,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    },
+    {
+        "id": 8,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    },
+    {
+        "id": 9,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    },
+    {
+        "id": 10,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    },
+    {
+        "id": 11,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    },
+    {
+        "id": 12,
+        "title": "",
+        "price": "$",
+        "description": "",
+        "category": "",
+        "image": ""
+    }
+]
