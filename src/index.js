@@ -1,10 +1,10 @@
-// index.js or App.js
+// index.js
 import React from "react";
 import ReactDOM from "react-dom";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom"; // Import necessary routing components
-import { CartProvider } from "./cartContext"; // Import the context
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { CartProvider } from "./cartContext";
 import Catalog from "./catalog";
-import Shop from "./Shop"; // Ensure Shop component is imported here
+import Shop from "./Shop";
 
 ReactDOM.render(
     <CartProvider>
