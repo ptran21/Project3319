@@ -50,10 +50,10 @@ function ProductCard({ image, title, price, rating, description, category }) {
 				<p>{description}</p>
 			</div>
 			<div className="mt-4 flex justify-center space-x-2 ">
-				<button className="w-8 h-8 bg-beige text-black font-semibold rounded-lg shadow-md hover:bg-beige-dark focus:outline-none focus:ring-2 focus:ring-beige-light focus:ring-opacity-50">
+				<button className="w-8 h-8 bg-beige text-black font-semibold rounded-lg shadow-md hover:bg-yellow focus:outline-none focus:ring-2 focus:ring-beige-light focus:ring-opacity-50">
 					+
 				</button>
-				<button className="w-8 h-8 bg-taupe text-white font-semibold rounded-lg shadow-md hover:bg-taupe-dark focus:outline-none focus:ring-2 focus:ring-taupe-light focus:ring-opacity-50">
+				<button className="w-8 h-8 bg-taupe text-white font-semibold rounded-lg shadow-md hover:bg-yellow focus:outline-none focus:ring-2 focus:ring-taupe-light focus:ring-opacity-50">
 					-
 				</button>
 			</div>
