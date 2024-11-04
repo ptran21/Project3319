@@ -7,7 +7,8 @@ module.exports = {
         beige: '#F5F5DC', // Replace with your exact beige color
         taupe: '#B38B5D', // Replace with your exact taupe color
         coolGrey: '#f1f0ee',
-        coolBrown: '#cbad91'
+        coolBrown: '#cbad91',
+        customBlue: '#007bff'
       },
     },
   },

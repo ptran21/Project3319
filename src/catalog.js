@@ -1,14 +1,14 @@
 // catalog.js
 import React, { useEffect, useState } from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './index.css';
 import ProductCard from './productCard';
-import Shop from './Shop';
 
 function Catalog() {
     const [products, setProducts] = useState([]);
-    const [search, setSearch] = useState(''); // Added search state
+    const [search, setSearch] = useState('');
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchProducts = async () => {
@@ -24,7 +24,6 @@ function Catalog() {
         fetchProducts();
     }, []);
 
-    // Filter products based on search input
     const filteredProducts = products.filter(product =>
         product.title.toLowerCase().includes(search.toLowerCase())
     );
@@ -41,33 +40,27 @@ function Catalog() {
                         onChange={(e) => setSearch(e.target.value)}
                         className="search-bar"
                     />
-                    <button onClick={() => setSearch('')}>Clear Search</button>
+
+                    {/* Button group for Clear Search and Return */}
+                    <div className="button-group">
+                        <button onClick={() => setSearch('')} className="btn-clear">
+                            Clear Search
+                        </button>
+                    </div>
+
                     <Link to="/cart" className="text-lg">
                         <FaShoppingCart className="text-black" size={48} />
                     </Link>
                 </nav>
             </header>
-            <Routes>
-                <Route
-                    path="/"
-                    element={
-                        <section className="py-12 bg-coolBrown-100 sm:py-16 lg:py-20">
-                            <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-                                {/* Display filtered products */}
-                                <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-4">
-                                    {filteredProducts.map((product) => (
-                                        <ProductCard
-                                            key={product.id}
-                                            {...product}
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        </section>
-                    }
-                />
-                <Route path="/cart" element={<Shop />} />
-            </Routes>
+            
+            <section>
+                <div className="grid grid-cols-1 gap-6 mt-10 sm:grid-cols-2 lg:grid-cols-4">
+                    {filteredProducts.map((product) => (
+                        <ProductCard key={product.id} {...product} />
+                    ))}
+                </div>
+            </section>
         </div>
     );
 }

@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Baguette",
-        "price": "$.00",
+        "price": "4.00",
         "description": "A baguette is a long, thin type of bread of French origin that is commonly made from basic lean dough. It is distinguishable by its length and crisp crust.",
         "category": "bread",
         "rating": 4.7,
